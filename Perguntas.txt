@@ -4,6 +4,7 @@ R: Commit -> Guardar as alterações feitas no local e com uma mensagem do mesmo
    Pop -> Remover ou recuperar o último item do topo da pilha. 
 
 2 – Quais sáo as vantagens de usar Branchs num repositório git?
+Os branches permitem desenvolver funcionalidades ou corrigir erros de forma isolada, sem afetar a versão estável (main). Facilitam o trabalho em paralelo entre várias pessoas, permitem experimentar sem risco e só se junta o trabalho ao main quando está pronto e testado.
 3 – Nos Merges de conteúdos resultantes de um “Pop” podem resultar em conflitos. Em
 que consistem e como podem ser resolvidos esses conflitos?
 4 – “Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as
