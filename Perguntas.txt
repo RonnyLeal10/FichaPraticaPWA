@@ -10,4 +10,4 @@ R: Os branches permitem desenvolver funcionalidades ou corrigir erros de forma i
 R: Um conflito acontece quando o Git não consegue juntar automaticamente duas alterações, normalmente porque as mesmas linhas do mesmo ficheiro foram alteradas de forma diferente nos dois lados. Resolve-se abrindo o ficheiro, escolhendo (ou combinando) o conteúdo final, apagando os marcadores de conflito, e fazendo depois git add e git commit.
 
 4 – “Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as diferenças entre eles?
-
+R: O clone copia um repositório remoto para o teu computador e mantém-se ligado ao original. O fork cria uma cópia do repositório na tua conta do GitHub, onde podes alterar à vontade sem permissão no original e depois propor as alterações através de um pull request.
