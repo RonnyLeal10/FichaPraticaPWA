@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programação Web Avançada</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            line-height: 1.6;
+            background-color: #c6d0f9;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .resposta {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Programação Web Avançada</h1>
+
+    <ol>
+        <li>
+            <p>O que são operações de <i>“Commit” , “Push”</i> e i <i>“Pop”</i> efetuadas num repositório?</p>
+
+            <p><strong>Resposta:</strong></p>
+
+            <ul>
+                <li><i><strong>Commit:</strong></i> Guardar as alterações feitas localmente no repositório, acompanhadas de uma mensagem que descreve as alterações.</li>
+                <li><i><strong>Push:</strong></i> Enviar os commits locais para um repositório remoto.</li>
+                <li><i><strong>Pop:</strong></i> No Git, o comando <code>git stash pop</code> aplica as alterações guardadas temporariamente e remove-as da lista do stash, se a aplicação for bem-sucedida.</li>
+            </ul>
+        </li>
+
+        <li>
+            <p>Quais são as vantagens de usar <em>branches</em> num repositório Git?</p>
+
+            <p class="resposta">
+                <strong>Resposta:</strong> Os branches permitem desenvolver funcionalidades ou corrigir erros de forma isolada, sem afetar a versão estável (<code>main</code>). Facilitam o trabalho em paralelo entre várias pessoas, permitem experimentar sem risco e só se junta o trabalho ao <u>main</u> quando está pronto e testado.
+            </p>
+        </li>
+
+        <li>
+            <p>Nos merges de conteúdos resultantes de um “Pop” podem resultar conflitos. Em que consistem e como podem ser resolvidos esses conflitos?</p>
+
+            <p class="resposta">
+                <strong>Resposta:</strong> Um conflito acontece quando o Git não consegue juntar automaticamente duas alterações, normalmente porque as mesmas linhas do mesmo ficheiro foram alteradas de forma diferente nos dois lados. Resolve-se abrindo o ficheiro, escolhendo ou combinando o conteúdo final, apagando os marcadores de conflito e executando depois <code>git add</code> e <code>git commit</code>, quando aplicável.
+            </p>
+        </li>
+
+        <li>
+            <p><i>“Clone” e “Fork”</i> são formas diferentes de replicar um repositório Git. Quais são as diferenças entre eles?</p>
+
+            <p class="resposta">
+                <strong>Resposta:</strong> O <em>clone</em> copia um repositório remoto para o computador e configura uma ligação ao repositório original. O <i><strong>fork</strong></i> cria uma cópia do repositório na conta do GitHub, permitindo fazer alterações sem precisar de permissões de escrita no original e, posteriormente, propor essas alterações através de um pull request.
+            </p>
+        </li>
+    </ol>
+
+</body>
+</html>
+
